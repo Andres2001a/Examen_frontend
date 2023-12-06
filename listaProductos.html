@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="listarProductos()">
+    <h1 style="text-align: center;">LISTA PRODUCTOS</h1>
+    <div style="display: flex; justify-content: space-evenly; margin-bottom: 15px;">
+        <a href="agregarProducto.html" style=" font-size: 16px; color: black;">Agregar producto</a>
+        <a href="listaCategorias.html" style=" font-size: 16px; color: black;">Ir a listado de categorias de productos</a>
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Nombre producto
+                </th>
+                <th>
+                    Talla
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>precio</th>
+                <th>
+                    Acciones
+                </th>
+                
+            </tr>
+        </thead>
+        <tbody id="contenido">
+
+        </tbody>
+    </table>
+
+    <script src="funciones_productos.js"></script>
+</body>
+</html>

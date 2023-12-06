@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="listarCategorias()">
+    <h1 style="text-align: center;">LISTA CATEGORIAS</h1>
+    <div style="display: flex; justify-content: space-evenly; margin-bottom: 15px;">
+        <a href="agregarCategoria.html" style=" font-size: 16px; color: black;">Agregar categoria</a>
+        <a href="listaProductos.html" style=" font-size: 16px; color: black;">Ir a listado de productos</a>
+
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Nombre categoria
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Acciones
+                </th>
+            </tr>
+        </thead>
+        <tbody id="contenido">
+
+        </tbody>
+    </table>
+
+    <script src="funciones_categorias.js"></script>
+</body>
+</html>
